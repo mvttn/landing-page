@@ -5,10 +5,10 @@ body {
   flex-direction: column;
 }
 
-img {
+.container img {
   display: flex;
-  min-width: 300px;
-  padding-bottom: 24px;
+  width: 300px;
+  margin-bottom: 36px;
 }
 
 .header {
@@ -38,7 +38,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #f9faf8;
+  color: #e5e7eb;
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -97,4 +97,49 @@ button {
   font-family: "Times New Roman", Times, serif;
   color: #e5e7eb;
   font-size: small;
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 156px 24px 156px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 16px;
+}
+
+.boxes {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 80px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box img {
+  display: flex;
+  max-width: 200px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.box .subtext {
+  color: #556275;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  margin: 12px;
 }
