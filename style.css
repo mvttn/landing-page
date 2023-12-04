@@ -19,7 +19,6 @@ body {
 
 .header {
   display: flex;
-  flex: 1 1 auto;
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -83,6 +82,7 @@ a {
 }
 
 button {
+  align-self: flex-start;
   color: #e5e7eb;
   background-color: #3882f6;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -91,8 +91,9 @@ button {
   padding: 6px 32px 6px 32px;
   margin: 16px;
   margin-left: 0px;
+  border-style: solid;
+  border-color: #3882f6;
   border-radius: 8px;
-  border-width: 1px;
 }
 
 .footer {
@@ -174,3 +175,26 @@ button {
   padding-right: 100px;
 }
 
+.calltoaction {
+  display: flex;
+  background-color: #3882f6;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 200px 100px 200px;
+  padding: 64px;
+  border-radius: 8px;
+}
+
+.calltoaction button {
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-width: 2px;
+}
+
+.inner-container {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #f9faf8;
+}
