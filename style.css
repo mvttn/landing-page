@@ -94,4 +94,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #e5e7eb;
+  font-size: small;
 }
