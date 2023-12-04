@@ -5,6 +5,12 @@ body {
   flex-direction: column;
 }
 
+.dark,
+.light,
+.grey {
+  padding: 24px 200px 24px 200px;
+}
+
 .container img {
   display: flex;
   width: 300px;
@@ -47,7 +53,6 @@ a {
 .dark,
 .footer {
   background-color: #1f2937;
-  padding: 24px 156px 24px 156px;
 }
 
 .emphasised {
@@ -92,17 +97,16 @@ button {
 
 .footer {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   font-family: "Times New Roman", Times, serif;
   color: #e5e7eb;
   font-size: small;
+  padding: 24px;
 }
 
 .light {
   display: flex;
   flex-direction: column;
-  padding: 24px 156px 24px 156px;
 }
 
 .info {
@@ -112,7 +116,7 @@ button {
   font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bolder;
   color: #1f2937;
-  padding: 16px;
+  margin: 48px;
 }
 
 .boxes {
@@ -143,3 +147,30 @@ button {
   padding: 8px;
   margin: 12px;
 }
+
+.grey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  padding: 100px;
+  padding-bottom: 20px;
+}
+
+.quotee {
+  align-self: flex-end;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding-bottom: 100px;
+  padding-right: 100px;
+}
+
